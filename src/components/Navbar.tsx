@@ -1,16 +1,16 @@
-import {useState} from 'react'
+import {useState} from 'react';
 
-import { close, logo, menu} from '../assets'
-import {navLinks} from '../constants'
+import { close, logo, menu} from '../assets';
+import {navLinks} from '../constants';
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false)
 
   return (
-      <nav className="w-full flex py-6 justify-between items-center navbar">
-          <img src={logo} alt="iMSafeBank" className="h-[32px] w-[124px]" />
+    <nav className="w-full flex py-6 justify-between items-center navbar">
+        <img src={logo} alt="iMSafeBank" className="h-[32px] w-[124px]" />
 
-          <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+          <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[2]">
               {navLinks.map((nav: any, index: number) => (
                   <li
                       key={nav.id}
