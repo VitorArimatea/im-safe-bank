@@ -20,6 +20,7 @@ const Billing = () => (
         <a href="https://play.google.com/store/games?hl=pt_BR&gl=US&pli=1" target="_blank"><img src={google} alt="google play" className='h-[27.54px] w-[108.75px] object-cover cursor-pointer' /></a>
       </div>
     </div>
+    
   </section>
 );
 
