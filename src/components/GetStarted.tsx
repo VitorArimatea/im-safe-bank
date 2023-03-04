@@ -10,14 +10,12 @@ const GetStarted = () => (
         </p>
         <img src={arrowUp} alt="arrow" className="h-[23px] w-[23px] object-contain" />
       </div>
-
+        
       <p className='font-poppins font-medium text-[18px] leading-[23px]'>
         <span className='text-gradient'>Started</span>
       </p>
     </div>
-
   </div>
+);
 
-)
-
-export default GetStarted
+export default GetStarted;
