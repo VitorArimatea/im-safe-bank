@@ -4,7 +4,7 @@ import styles, {layout} from '../style';
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
  
-    <div className={`${layout.sectionImgReverse} ml-10`}>
+    <div className={`${layout.sectionImgReverse} ${styles.paddingX} ml-10`}>
       <img src={bill} alt="billing" className='h-[100%] w-[100%] relative z-[5]' />
 
       <div className='h-[50%] w-[50%] absolute z-[3] top-0 -left-1/2 rounded-full white__gradient' />
