@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -14,19 +18,15 @@
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
-* {
-  scroll-behavior: smooth;
-}
-
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #DEFAE8 0.89%,
+    #BEF5C3 17.23%,
+    #9FF09D 42.04%,
+    #7DEB95 55.12%,
+    #7bffa1 71.54%,
+    #6bff8d 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,15 +34,15 @@
   text-fill-color: transparent;
 }
 
-.bg-blue-gradient {
+.bg-green-gradient {
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #DEFAE8 -43.27%,
+    #BEF5C3 -21.24%,
+    #9FF09D 12.19%,
+    #7DEB95 29.82%,
+    #7bffa1 51.94%,
+    #6bff8d 90.29%
   );
 }
 
@@ -124,8 +124,8 @@
   background: var(--black-gradient);
 }
 
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+.green__gradient {
+  background: linear-gradient(180deg, rgba(0, 235, 78, 0) 0%, #13ac46 100%);
   filter: blur(123px);
 }
 
