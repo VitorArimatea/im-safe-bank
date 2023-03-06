@@ -7,11 +7,11 @@ const Billing = () => (
     <div className={`${layout.sectionImgReverse} ${styles.paddingX} ml-10`}>
       <img src={bill} alt="billing" className='h-[100%] w-[100%] relative z-[5]' />
 
-      <div className='h-[50%] w-[50%] absolute z-[3] top-0 -left-1/2 rounded-full white__gradient' />
-      <div className='h-[50%] w-[50%] absolute z-[0] bottom-0 -left-1/2 rounded-full pink__gradient' />
+      <div className='h-[50%] w-[50%] absolute z-[3] top-0 -left-1/2 rounded-full green__gradient' />
+      <div className='h-[50%] w-[50%] absolute z-[0] bottom-0 -left-1/2 rounded-full white__gradient' />
     </div>
 
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfo} sm:${styles.flexCenter} ${styles.paddingX}`}>
       <h2 className={styles.heading2}>Easily control your <br className='sm:block hidden' /> billing & invoicing.</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
 
