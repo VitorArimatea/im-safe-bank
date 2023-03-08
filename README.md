@@ -7,7 +7,7 @@
 <p align="center">Versão Mobile</p>  
 
 <p align="center">
-    <img alt="Mobile preview" src=".github/preview-mobile.png" width="45%">
+    <img alt="Mobile preview" src=".github/mobile-preview.jpeg" width="45%">
 </p>
 
 #
@@ -20,8 +20,8 @@
 
 ## Projeto
 
-<p>Um Website de um banco moderno conceitual.</p>
+<p>Um Website conceitual de um banco moderno.</p>
 
 ## Deploy
 
-Link para acessar o projeto: https://imsafebank.vercel.app/
+Link para acessar o projeto: https://im-safe-bank.vercel.app/
