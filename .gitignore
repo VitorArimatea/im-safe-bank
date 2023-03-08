@@ -15,11 +15,8 @@ dist-ssr
 # Editor directories and files
 .vscode
 vite.config.ts
-tsconfig.json
-tsconfig.node.json
 postcss.config.cjs
 tailwind.config.cjs
-
 .idea
 .DS_Store
 *.suo
