@@ -19,8 +19,7 @@ tsconfig.json
 tsconfig.node.json
 postcss.config.cjs
 tailwind.config.cjs
-package-lock.json
-package.json
+
 .idea
 .DS_Store
 *.suo
